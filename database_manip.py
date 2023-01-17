@@ -9,7 +9,7 @@ cursor = db.cursor()
 # drops any tables from previous running
 cursor.execute("""DROP TABLE python_programming""")
 
-# creates python_programming table in db
+# creates python_programming table in database
 cursor.execute("""
 CREATE TABLE python_programming (
 ID int NOT NULL,
